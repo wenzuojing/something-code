@@ -8,5 +8,16 @@
     <artifactId>something-code</artifactId>
     <version>1.0</version>
 
+    <dependencies>
+
+        <dependency>
+            <groupId>org.iq80.leveldb</groupId>
+            <artifactId>leveldb</artifactId>
+            <version>0.7</version>
+        </dependency>
+
+    </dependencies>
+
+
 
 </project>
