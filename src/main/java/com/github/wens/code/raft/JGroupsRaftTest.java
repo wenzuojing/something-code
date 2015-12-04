@@ -15,7 +15,7 @@ public class JGroupsRaftTest {
     private static final String RAFT_XML = "raft.xml";
 
     public static void main(String[] args) throws Exception {
-        JChannel ch = new JChannel(RAFT_XML).name("B");
+        JChannel ch = new JChannel(RAFT_XML).name("C");
         CounterService counter = new CounterService(ch);
 
         try {
